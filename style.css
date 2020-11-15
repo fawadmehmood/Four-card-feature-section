@@ -31,6 +31,7 @@ body{
     min-height: 100vh;
     background-color: var(--Light_Gray);
     padding: 5rem 0;
+    position: relative;
 }
 
 .container{
@@ -146,6 +147,13 @@ body{
     background-size: contain;
 }
 
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 /* mobile */
 @media screen and (max-width: 800px) {
